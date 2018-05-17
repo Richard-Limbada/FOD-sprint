@@ -840,8 +840,7 @@ body {
 .about__introduction__declaration p:first-child {
     font-weight: 200;
     width: 90%;
-    font-size: 24px;
-    margin-top: -20px;
+    /*font-size: 24px;*/
 }
 
 .about__map {
@@ -1232,7 +1231,8 @@ body {
 
     .about__introduction__declaration, p {
         position: relative;
-        top: -10px;
+        top: -11px;
+        font-size: 18px;
     }
 
 
