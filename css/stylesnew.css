@@ -49,15 +49,23 @@ h2 {
 .botArea {
     background-color: #f3f3f3;
     width: 100%;
-    padding: 200px;
+    height: 600px;
+    padding: 90px 25px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 .botBox {
     background-color: white;
-    width: 30%;
     height: 300px;
     min-width: 200px;
-    border: solid #efe9e9;
+    margin: 0 auto;
 }
+/*.bot-header {
+    width: 350px;
+    height: 100px;
+    background-color: grey;
+    min-width: 200px;
+    z-index: 9999999;
+
+}*/
