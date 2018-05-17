@@ -7,7 +7,8 @@
 
 		<title>Garage - About Page</title>
 
-		 <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" href="css/styles.min.css">
         <link rel="stylesheet" href="css/stylesnew.css">
         
@@ -126,8 +127,10 @@
        Banner
    -->
 
-   <div class="about__banner" style="background-image: url(img/road.jpg); background-position: bottom;">
-    	<h1 class="about__banner__title" style="transform: scaleX(-1);">Digital creative agency</h1>
+
+   <div class=" about__banner" style="background-image: url(img/city.jpg); background-position: 50% 40%; box-shadow:  rgba(0,0,0,0.2) 0 0 0 1000px inset;">
+    	<h1 data-aos="fade-right" class="  blur about__banner__title" style="transform: scaleX(-1);">Digital creative agency</h1>
+
     </div>
 
     <!--
@@ -135,29 +138,30 @@
     -->
 
     <div class="about-container">
+        <div class="about__introduction">
+            <div class="about__introduction__title">
+                <h1>
+                    We design <br> and engineer <br> <span class="text-color"> digital solutions </span>
+                </h1>
+            </div>
 
-	    <div class="about__introduction">
 
-	        <h1 class="about__introduction__title">
-	            We design <br> and engineer <br> <span class="text-color"> digital solutions </span>
-	        </h1>
+            <div class="about__introduction__declaration">
+                <p><span class="intro_heading"> Who we are</span> <br>
+                The Garage was launched in 2017 as part of innogy SE, a leading European energy company. Local Garages were created to accelerate digital product design and development for innogy. 
+                <br><br>
+                <span class="intro_heading">How we work</span><br>
+                We work agile and user centered. Agile means we focus on speed and efficiency when working. User centered means that our main focus is the user and his behaviour – designing solutions that your users will actually use and love.
+                <br><br>
+                <span class="intro_heading">Our goal</span><br>
+                We bring researchers, designers and technologists together to create the best digital solutions for your customers. 
+                </p>
+            </div>
 
-	        <div class="about__introduction__declaration">
-	            <p></p>
-	            <p><span class="intro_heading"> Who we are</span> <br>
-				The Garage was launched in 2017 as part of innogy SE, a leading European energy company. Local Garages were created to accelerate digital product design and development for innogy. 
-				<br><br>
-				<span class="intro_heading">How we work</span><br>
-				We work agile and user centered. Agile means we focus on speed and efficiency when working. User centered means that our main focus is the user and his behaviour – designing solutions that your users will actually use and love.
-				<br><br>
-				<span class="intro_heading">Our goal</span><br>
-				We bring researchers, designers and technologists together to create the best digital solutions for your customers. 
-	            </p>
-	        </div>
 
-	    </div>
-
+        </div>
     </div>
+
 <div class="servicesSection">
 
             <div class="servicesArea" data-aos="fade-up" data-aos-duration="2000">
@@ -172,18 +176,17 @@
 <!--    text area-->
     <div class="serviceArea" data-aos="fade-up">
         <h2>We <span class="yellow">explore</span></h2>
-            <p class="serviceText">
+            <p data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="serviceText">
             We get to the core of the problem and define possible value propositions.<br>We help you develop concepts for new products and services by analysing your customer’s behaviour and defining their problems.
             </p>
     
     
     </div>
-    
-    
-    
 
 
 </div>
+    <div class="vl"></div>
+
     <div class="servicesArea" data-aos="fade-up" data-aos-duration="2000">
 <!--    svg icon-->
         <div class="svgContainer">
@@ -196,7 +199,7 @@
 <!--    text area-->
     <div class="serviceArea" data-aos="fade-up">
         <h2>We <span class="yellow">CONCEPTUALISE</span></h2>
-            <p class="serviceText">
+            <p data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="serviceText">
             We want to know if your concept actual solves a problem for the users. We bring your concept to life in a test environment with real users. From there, we continuously experiment towards a validated problem solution fit.
             </p>
     
@@ -209,6 +212,8 @@
 
 </div>
 
+    <div data-aos="fade-up" data-aos-duration="2000" class="vl"></div>
+    
         <div class="servicesArea" data-aos="fade-up" data-aos-duration="2000">
 <!--    svg icon-->
         <div class="svgContainer">
@@ -221,18 +226,15 @@
 <!--    text area-->
     <div class="serviceArea">
         <h2>We <span class="yellow">DESIGN AND BUILD</span></h2>
-            <p class="serviceText">
+            <p data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="serviceText">
             The core of our belief specifically lies in the process of making. Once it’s clear that the product has enough customer and business value, it’s time to bring it to the next level fast. We design, build and launch!
             </p>
     
     
     </div>
-    
-    
-    
-
-
 </div>
+
+    
 </div>
 
 
@@ -242,15 +244,15 @@
 
 
     <div class="about__locations">
-        <h1> We are <span class="text-color">international</span></h1>
+        <h1 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out"  > We are <span class="text-color">international</span></h1>
         <div class="locations-container">
-        	<div class="location">
+        	<div class="location grey">
         		<p><span class="city">Berlin</span> <br> Germany</p>
         	</div>
-        	<div class="location">
+        	<div class="location grey">
         		<p><span class="city">Amsterdam</span> <br> Netherlands</p>
         	</div>
-        	<div class="location">
+        	<div class="location grey">
         		<p><span class="city">Cape Town</span> <br> South Africa</p>
         	</div>
         </div>
@@ -260,41 +262,32 @@
   <!-- Portfolio --> 
 
     <div class="portfolio">
-        <h1>Our <span class="text-color">work</span></h1>
+        <h1 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out"  >Our <span class="text-color">work</span></h1>
         <div style="width: 50%; height: 350px; background-image: url('img/essent.png'); background-repeat: no-repeat; background-size: contain; float: left;"></div>
         <div style="width: 50%; height: 350px; float: right; padding-top: 60px; padding-left: 30px; line-height: 1.3;">
                 <p><span class="portfolio_heading" style="font-size: 30px; text-transform: uppercase;"> Project: Zo Opgelost</span> <br><br>
-                <span style="font-weight: bold;">Summary:</span>
-                A platform for your jobs around the house.
+                <span style="font-weight: bold;">Summary:</span> A platform for your jobs around the house.
                 <br>
-                <span style="font-weight: bold;">Client:</span>
-                Essent Nederland 
+                <span style="font-weight: bold;">Client:</span> Essent Nederland 
                 <br>
-                <span style="font-weight: bold;">Duration:</span>
-                3 months
+                <span style="font-weight: bold;">Duration:</span> 3 months
                 <br>
-                <span style="font-weight: bold;">Garage members:</span>
-                5 
+                <span style="font-weight: bold;">Garage members:</span> 5 
                 <br>
-                <span style="font-weight: bold;">Launched:</span>
-                September 2017 
+                <span style="font-weight: bold;">Launched:</span> September 2017 
                 </p>
         </div>
 
-        <div style="width: 50%; height: 350px; float: left; padding-top: 60px; padding-left: 30px; line-height: 1.3;">
+        <div style="width: 50%; height: 350px; float: left; padding-top: 60px; padding-right: 30px; line-height: 1.3;">
                 <p><span class="portfolio_heading" style="font-size: 30px; text-transform: uppercase;">Project: Log House</span> <br>
                 <br>
-                <span style="font-weight: bold;">Summary</span>
-                Real Estate management tool
+                <span style="font-weight: bold;">Summary:</span> Real Estate management tool
                 <br>
-                <span style="font-weight: bold;">Client:</span>
-                Log House by The Innovation Hub
+                <span style="font-weight: bold;">Client:</span> Log House by The Innovation Hub
                 <br>
-                <span style="font-weight: bold;">Duration:</span>
-                2 weeks
+                <span style="font-weight: bold;">Duration:</span> 2 weeks
                 <br>
-                <span style="font-weight: bold;">Garage members:</span>
-                3
+                <span style="font-weight: bold;">Garage members:</span> 3
                 </p>
         </div>
         <div style="width: 50%; height: 350px; background-image: url('img/log-house.png'); background-repeat: no-repeat; background-size: contain; float: right;"></div>
@@ -302,106 +295,17 @@
 
 
 
-    <!--
-        What we do
-    -->
-
-
-
-<!--     <div class="about__whatwedo">
-        <div class="about__whatwedo__topic">
-            <div class="about__whatwedo__topic__topbar">
-                <div>
-                    <div class="about__whatwedo__topic__topbar__image" style="background-image:url('/icons/erlenmeyer.svg')"></div>
-                    <div class="about__whatwedo__topic__topbar__title">We explore</div>
-                    <div class="about__whatwedo__topic__topbar__icon" style="background-image:url('icons/chevronRight.svg')"></div>
-                </div>
-            </div>
-            <div class="about__whatwedo__topic__index">
-                <div class="about__whatwedo__topic__index__mask">
-                    <div class="about__whatwedo__topic__index__mask__icon" style="background-image:url('/icons/erlenmeyer.svg')"></div>
-                    <div class="about__whatwedo__topic__index__mask__text">
-                        <div>
-                            <h1>We explore</h1>
-                            <p>
-                              <span>We get to the core of the problem and define possible value propositions.</span> <br><br> We help you develop concepts for new products and services by analysing your customer’s behaviour and defining their problems.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="about__whatwedo__topic">
-            <div class="about__whatwedo__topic__topbar">
-                <div>
-                    <div class="about__whatwedo__topic__topbar__image" style="background-image:url('/icons/penPaper.svg')"></div>
-                    <div class="about__whatwedo__topic__topbar__title">We validate </div>
-                    <div class="about__whatwedo__topic__topbar__icon" style="background-image:url('icons/chevronRight.svg')"></div>
-                </div>
-            </div>
-            <div class="about__whatwedo__topic__index">
-                <div class="about__whatwedo__topic__index__mask">
-                    <div class="about__whatwedo__topic__index__mask__icon" style="background-image:url('/icons/penPaper.svg')"></div>
-                    <div class="about__whatwedo__topic__index__mask__text">
-                        <div>
-                            <h1>We validate </h1>
-                            <p>
-                              <span>We want to know if your concept actual solves a problem for the users.</span> <br><br> We bring your concept to life in a test environment with real users. From there, we continuously experiment towards a validated problem solution fit
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="about__whatwedo__topic">
-            <div class="about__whatwedo__topic__topbar">
-                <div>
-                    <div class="about__whatwedo__topic__topbar__image" style="background-image:url('/icons/laptop.svg')"></div>
-                    <div class="about__whatwedo__topic__topbar__title">We design & build</div>
-                    <div class="about__whatwedo__topic__topbar__icon" style="background-image:url('icons/chevronRight.svg')"></div>
-                </div>
-            </div>
-            <div class="about__whatwedo__topic__index">
-                <div class="about__whatwedo__topic__index__mask">
-                    <div class="about__whatwedo__topic__index__mask__icon" style="background-image:url('/icons/laptop.svg')"></div>
-                    <div class="about__whatwedo__topic__index__mask__text">
-                        <div>
-                            <h1>We design and build</h1>
-                            <p>
-                              <span>The core of our belief specifically lies in the process of making.</span> <br><br> Once it’s clear that the product has enough customer and business value, it’s time to bring it to the next level fast. We design, build and launch!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-
-    <!--
-        Call request
-    -->
-
     <div id="bot-area" class="botArea">
         <div class="botBox">
-                <iframe
-                width="350"
-                height="430"
+            <div class="botCover"></div>
+            <iframe
                 src="https://console.dialogflow.com/api-client/demo/embedded/b2279cd3-1510-46fe-91e6-033a779bacb3">
             </iframe>
 
         </div>
         
     </div>
-    <div class="about__callrequest" style="background-image:url(/images/seagul.png);">
-        <div class="about__callrequest__index">
-            <h1>SHOUT OUT TO TALENTED CRAFTERS</h1>
-            <a href="/vacancy-page.php">
-                <div class="about__callrequest__index__button">Get in touch now</div>
-            </a>
-        </div>
-    </div>
+
     
 
 </div>
