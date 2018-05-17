@@ -10,16 +10,16 @@
         
 }
 .servicesArea:first-child {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .servicesArea:nth-last-child(1) {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
 .serviceArea {
     width: 50%;
-    padding-top: 10px;
-    padding-bottom:  10px;
+    padding-top: 0px;
+    padding-bottom:  0px;
     padding-left: 10px;
     padding-right: 10px;
         
@@ -47,11 +47,8 @@ h2 {
 }
 
 .botArea {
-<<<<<<< HEAD
-    background-color: #d3d3d3;
-=======
+
     background-color: #f3f3f3;
->>>>>>> 770cc7ef77f59cd901ff01e0bf08c5571e2a65cb
     width: 100%;
     padding: 200px;
     display: flex;
@@ -59,9 +56,44 @@ h2 {
     align-items: center;
 }
 .botBox {
-    background-color: white;
-    width: 30%;
-    height: 300px;
+    width: 80%;
+    height: 400px;
     min-width: 200px;
-    border: solid #efe9e9;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+iframe {
+    width: 100%;
+    min-width: 400px;
+     max-width: 600px;
+    min-height: 400px;
+}
+
+#yourElement {
+  -webkit-animation-duration: 1s;
+-mos-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+}
+
+.botCover {
+    height: 120px;
+    width: 100%;
+    min-width: 400px;
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 0;
+    
+}
+.b-agent-demo {
+    background-color:aqua !important;
+}
+.server-response {
+    background-color:aqua !important; 
 }
