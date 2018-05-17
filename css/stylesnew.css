@@ -234,3 +234,16 @@ animation-delay: 1s;
     filter: grayscale(0);
   }
 }
+.botHeader {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    display: absolute;
+}
+.smallText {
+        font-size: 18px;
+        font-weight: 100;
+}
+    
