@@ -47,13 +47,13 @@ h2 {
 }
 
 .botArea {
-
     background-color: #f3f3f3;
     width: 100%;
-    padding: 200px;
+    height: 600px;
+    padding: 90px 25px;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 .botBox {
     width: 80%;
@@ -97,3 +97,4 @@ animation-delay: 1s;
 .server-response {
     background-color:aqua !important; 
 }
+
