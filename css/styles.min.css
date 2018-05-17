@@ -124,28 +124,28 @@ a {
 
 @font-face {
     font-family: innogyWEB;
-    src: url(/fonts/innogyWEB-Light.eot),url(/fonts/innogyWEB-Light.ttf) format("truetype"),url(/fonts/innogyWEB-Light.woff) format("woff"),url(/fonts/innogyWEB-Light.woff2) format("woff2");
+    src: url(../fonts/innogyWEB-Light.eot),url(/fonts/innogyWEB-Light.ttf) format("truetype"),url(/fonts/innogyWEB-Light.woff) format("woff"),url(/fonts/innogyWEB-Light.woff2) format("woff2");
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: innogyWEB;
-    src: url(/fonts/innogyWEB-Regular.eot),url(/fonts/innogyWEB-Regular.ttf) format("truetype"),url(/fonts/innogyWEB-Regular.woff) format("woff"),url(/fonts/innogyWEB-Regular.woff2) format("woff2");
+    src: url(../fonts/innogyWEB-Regular.eot),url(/fonts/innogyWEB-Regular.ttf) format("truetype"),url(/fonts/innogyWEB-Regular.woff) format("woff"),url(/fonts/innogyWEB-Regular.woff2) format("woff2");
     font-weight: 200;
     font-style: normal
 }
 
 @font-face {
     font-family: innogyWEB;
-    src: url(/fonts/innogyWEB-Medium.eot),url(/fonts/innogyWEB-Medium.ttf) format("truetype"),url(/fonts/innogyWEB-Medium.woff) format("woff"),url(/fonts/innogyWEB-Medium.woff2) format("woff2");
+    src: url(../fonts/innogyWEB-Medium.eot),url(/fonts/innogyWEB-Medium.ttf) format("truetype"),url(/fonts/innogyWEB-Medium.woff) format("woff"),url(/fonts/innogyWEB-Medium.woff2) format("woff2");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: innogyWEB;
-    src: url(/fonts/innogyWEB-Bold.eot),url(/fonts/innogyWEB-Bold.ttf) format("truetype"),url(/fonts/innogyWEB-Bold.woff) format("woff"),url(/fonts/innogyWEB-Bold.woff2) format("woff2");
+    src: url(../fonts/innogyWEB-Bold.eot),url(/fonts/innogyWEB-Bold.ttf) format("truetype"),url(/fonts/innogyWEB-Bold.woff) format("woff"),url(/fonts/innogyWEB-Bold.woff2) format("woff2");
     font-weight: 400;
     font-style: normal
 }
