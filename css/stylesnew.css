@@ -1,0 +1,67 @@
+.servicesArea {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+        
+}
+.servicesArea:first-child {
+    padding-top: 100px;
+}
+.servicesArea:nth-last-child(1) {
+    padding-bottom: 100px;
+}
+
+.serviceArea {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom:  10px;
+    padding-left: 10px;
+    padding-right: 10px;
+        
+}
+.svgContainer{
+    margin-right: 30px;
+    width: 180px;
+    height: 180px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.yellow {
+    color: #F59B00;
+}
+.serviceText {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+.botArea {
+<<<<<<< HEAD
+    background-color: #d3d3d3;
+=======
+    background-color: #f3f3f3;
+>>>>>>> 770cc7ef77f59cd901ff01e0bf08c5571e2a65cb
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botBox {
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    min-width: 200px;
+    border: solid #efe9e9;
+}
