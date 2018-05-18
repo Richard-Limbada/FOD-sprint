@@ -764,7 +764,6 @@ body {
     overflow: hidden;
     background: no-repeat 20% 50%;
     background-size: cover;
-    transform: scaleX(-1);
 }
 
 .about__banner>div:first-child {
@@ -1751,4 +1750,26 @@ body {
 }
 .portfolio_heading {
     color: #F59B00;
+}
+
+@media screen and (min-width: 180px) and (max-width: 767px) {
+    .about__banner__title {
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+    .location {
+        width: 100%;
+    }
+    .about__introduction__title {
+        display: block;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .svgContainer {
+        width: 100%;
+    }
+    .location {
+        width: 100%;
+        display: block;
+    }
 }
