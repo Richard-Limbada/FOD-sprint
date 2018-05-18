@@ -9,6 +9,7 @@
 
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="vendor/tingle.min.css">
 		<link rel="stylesheet" href="css/styles.min.css">
         <link rel="stylesheet" href="css/stylesnew.css">
         
@@ -52,16 +53,16 @@
     <div>
         <ul class="navigation__list">
             <li class="navigation__list__item">
-                <a class="navigation__list__item__link navigation__list__item__link--yellow" href="/about-page.php">About</a>
+                <a class="navigation__list__item__link navigation__list__item__link--yellow" href="#">About</a>
             </li>
             <li class="navigation__list__item">
-                <a class="navigation__list__item__link navigation__list__item__link--pink" href="/vacancy-page.php">Careers</a>
+                <a class="navigation__list__item__link navigation__list__item__link--pink" href="#">Careers</a>
             </li>
             <li class="navigation__list__item">
-                <a class="navigation__list__item__link navigation__list__item__link--blue" href="/team-page.php">Crafters</a>
+                <a class="navigation__list__item__link navigation__list__item__link--blue" href="#">Crafters</a>
             </li>
             <li class="navigation__list__item">
-                <a class="navigation__list__item__link navigation__list__item__link--aqua" href="/contact-page.php">Contact</a>
+                <a class="navigation__list__item__link navigation__list__item__link--aqua" href="#">Contact</a>
             </li>
 
         </ul>
@@ -263,8 +264,11 @@
 
     <div class="portfolio">
         <h1 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out"  >Our <span class="text-color">work</span></h1>
+        
+        <a class="portfolioItem" >
         <div style="width: 50%; height: 350px; background-image: url('img/essent.png'); background-repeat: no-repeat; background-size: contain; float: left;"></div>
-        <div style="width: 50%; height: 350px; float: right; padding-top: 60px; padding-left: 30px; line-height: 1.3;">
+        
+            <div style="width: 50%; height: 350px; float: right; padding-top: 60px; padding-left: 30px; line-height: 1.3;">
                 <p><span class="portfolio_heading" style="font-size: 30px; text-transform: uppercase;"> Project: Zo Opgelost</span> <br><br>
                 <span style="font-weight: bold;">Summary:</span> A platform for your jobs around the house.
                 <br>
@@ -276,8 +280,12 @@
                 <br>
                 <span style="font-weight: bold;">Launched:</span> September 2017 
                 </p>
-        </div>
+            </div>
+            <div class="hidden portfolioExtra tingle-content-wrapper"><h1 class="portfolioh1">Project: Zo Opgelost</h1>
+            <img class="itemImage" src="img/essent-2.jpg"> </div>
+        </a>
 
+        <a class="portfolioItem" >
         <div style="width: 50%; height: 350px; float: left; padding-top: 60px; padding-right: 30px; line-height: 1.3;">
                 <p><span class="portfolio_heading" style="font-size: 30px; text-transform: uppercase;">Project: Log House</span> <br>
                 <br>
@@ -290,7 +298,15 @@
                 <span style="font-weight: bold;">Garage members:</span> 3
                 </p>
         </div>
+        <div class="hidden portfolioExtra tingle-content-wrapper"><h1 class="portfolioh1">Project: Log House</h1>
+            <img class="itemImage" src="img/log-house-5.jpg">
+            <img class="itemImage" src="img/log-house-3.jpg">
+            <img class="itemImage" src="img/log-house-2.jpg">
+            <img class="itemImage" src="img/log-house-4.jpg">
+            </div>
+            
         <div style="width: 50%; height: 350px; background-image: url('img/log-house.png'); background-repeat: no-repeat; background-size: contain; float: right;"></div>
+        </a>
     </div>
 
 
@@ -299,7 +315,46 @@
         
         <div class="botBox">
             <div class="botCover">
-            <h1 class="botHeader" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out"  >Lets get started<br> <span class="text-color">on your project!</span><br><span class="smallText">Our bot will guide you through the procurement process. Say Hi!</span></h1></div>
+
+            <h1 class="botHeader" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out"  >Lets get started<br> <span class="text-color">on your project!</span><br><span class="smallText">Our bot will guide you through the process &amp; make sure you are on the right track. Say Hi!</span></h1>
+                <div class="botIconC">
+                    <div class="botIcon">
+                    <!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="botSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150" style="" xml:space="preserve" class="">
+<style type="text/css">
+	.st0{fill:none;stroke:#F59B00;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F59B00;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0 qrNonZnp_0" d="M19.9,117.4c0-12.1,0-23.9,0-36c-2.2,0-4.4,0-6.5,0c-4.7,0.1-8.5,3.9-8.6,8.6c-0.1,6.2-0.1,12.5,0,18.7
+		c0.1,4.4,3.5,8.1,7.8,8.6C14.9,117.6,17.3,117.4,19.9,117.4z M130.1,81.5c0,12.1,0,24,0,35.9c2.6,0,5.1,0.2,7.5,0
+		c4.1-0.4,7.5-4.2,7.6-8.3c0.1-6.4,0.1-12.8,0-19.1c-0.1-4.1-3.5-7.9-7.6-8.3C135.2,81.3,132.7,81.5,130.1,81.5z"></path>
+	<path class="st1 qrNonZnp_1" d="M80.9,38c2.5,0.6,4.9,1,7.2,1.7c20.6,6,34.6,24,34.9,45.6c0.3,17.5,0.1,35.1,0.1,52.6c0,0.3,0,0.7-0.1,1.1
+		c-8.8,0-17.4,0-26.4,0c0-2.5,0-5.1,0-7.6c0-1.2,0-2.5-0.3-3.6c-0.4-2-1.7-3.4-3.8-3.8c-1-0.2-2-0.3-3-0.3c-9.7,0-19.3,0-29,0
+		c-5.2,0-7.1,1.9-7.1,7.2c0,2.7,0,5.4,0,8.2c-8.9,0-17.5,0-26.5,0c0-0.7,0-1.4,0-2.2c0-17,0-34,0-51c0-23.3,16.8-43.2,39.7-47.3
+		c0.7-0.1,1.4-0.3,2.4-0.5C69.1,38.1,75.3,37.2,80.9,38z M64.9,97.1c0-7.2-5.7-13-12.8-13.1c-7.3-0.1-13.2,5.7-13.3,12.9
+		c-0.1,7.2,5.8,13.2,13,13.2C58.9,110.1,64.8,104.3,64.9,97.1z M113.1,97.1c0-7.3-5.7-13.1-13-13.1C92.8,84,86.9,89.9,87,97
+		c0.1,7.1,5.9,13,13,13C107.2,110.1,113,104.3,113.1,97.1z"></path>
+	<path class="st1 qrNonZnp_2" d="M19.9,117.4c-2.6,0-5,0.2-7.4,0c-4.3-0.4-7.7-4.2-7.8-8.6c-0.1-6.2-0.1-12.5,0-18.7c0.1-4.7,4-8.5,8.6-8.6
+		c2.2-0.1,4.3,0,6.5,0C19.9,93.5,19.9,105.3,19.9,117.4z"></path>
+	<path class="st1 qrNonZnp_3" d="M130.1,81.5c2.5,0,5-0.2,7.5,0c4.1,0.4,7.5,4.2,7.6,8.3c0.1,6.4,0.1,12.8,0,19.1c-0.1,4.2-3.5,7.9-7.6,8.3
+		c-2.4,0.3-4.9,0-7.5,0C130.1,105.5,130.1,93.6,130.1,81.5z"></path>
+	<path class="st1 qrNonZnp_4" d="M85.6,21.6c0,5.9-4.8,10.6-10.7,10.6c-5.8-0.1-10.6-4.9-10.5-10.7C64.5,15.6,69.3,11,75.2,11
+		C81,11,85.7,15.8,85.6,21.6z"></path>
+</g>
+<style data-made-with="vivus-instant">.qrNonZnp_0{stroke-dasharray:190 192;stroke-dashoffset:191;}.bot .qrNonZnp_0{animation:qrNonZnp_draw 2200ms ease-in-out 0ms forwards;}.qrNonZnp_1{stroke-dasharray:544 546;stroke-dashoffset:545;}.bot .qrNonZnp_1{animation:qrNonZnp_draw 2200ms ease-in-out 0ms forwards;}.qrNonZnp_2{stroke-dasharray:95 97;stroke-dashoffset:96;}.bot .qrNonZnp_2{animation:qrNonZnp_draw 2200ms ease-in-out 0ms forwards;}.qrNonZnp_3{stroke-dasharray:95 97;stroke-dashoffset:96;}.bot .qrNonZnp_3{animation:qrNonZnp_draw 2200ms ease-in-out 0ms forwards;}.qrNonZnp_4{stroke-dasharray:67 69;stroke-dashoffset:68;}.bot .qrNonZnp_4{animation:qrNonZnp_draw 2200ms ease-in-out 0ms forwards;}@keyframes qrNonZnp_draw{100%{stroke-dashoffset:0;}}@keyframes qrNonZnp_fade{0%{stroke-opacity:1;}93.75%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg></div>
+
+                
+                
+                
+                
+                </div>
+            
+            
+            
+            </div>
+
             <iframe
                 src="https://console.dialogflow.com/api-client/demo/embedded/b2279cd3-1510-46fe-91e6-033a779bacb3">
             </iframe>
@@ -382,6 +437,7 @@
             <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
 <!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollfire/1.4.0/jquery.scrollfire.js"></script>-->
 			<script src="js/base.min.js"></script>
+            <script src="vendor/tingle.min.js"></script>
 
 
 			<script src="js/about.min.js"></script>

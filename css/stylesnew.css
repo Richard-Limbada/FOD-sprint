@@ -26,8 +26,8 @@
 }
 .svgContainer{
     margin-right: 30px;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
 }
 
 h2 {
@@ -51,6 +51,7 @@ h2 {
     background-color: #f3f3f3;
     width: 100%;
     padding: 200px;
+    padding-top: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,14 +59,14 @@ h2 {
 .botBox {
     width: 80%;
     height: 400px;
-    min-width: 200px;
+    min-width: 500px;
     display: flex;
     justify-content: center;
     position: relative;
 }
 iframe {
     width: 100%;
-    min-width: 400px;
+    min-width: 500px;
      max-width: 600px;
     min-height: 400px;
 }
@@ -238,12 +239,83 @@ animation-delay: 1s;
     font-size: 50px;
     text-align: center;
     font-weight: 200;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-bottom: 10px;
     display: absolute;
 }
 .smallText {
         font-size: 18px;
         font-weight: 100;
+    width: 200px;
+    line-height: 5px;
+    margin: 0;
 }
+.hidden {
+    display: none
+}    
+
+.tingle-modal-box__content {
+    padding: 0;
+    position: relative;
+}
+
+.tingle-modal {
+    background: rgba(225, 225, 226, 0.89);
+    z-index: 900000;
+}
+
+.tingle-modal-box {
+    border-radius: 2px;
+    width: 50%;
+    max-width: 600px;
+    position: relative;
+
+}
+
+.tingle-modal__closeIcon {
+    outline: none !important;
+}
+.tingle-modal__closeIcon {
+    outline: none !important;
+}
+.tingle-modal__closeLabel {
+    outline: none !important;
+}
+button {
+  outline: none !important;
+}
+.portfolioItem {
+    cursor: pointer
+}
+
+.botIconC {
+    width: 100%;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
     
+}
+.botIcon {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top:0;
+    margin-top: -205px;
+    
+}
+
+.itemImage {
+    width: 90%;
+    margin: 5%;
+}
+
+.portfolioh1 {
+    color: #F59B00;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
