@@ -413,7 +413,6 @@ body {
         margin-top: 80px
     }
 }
-
 .get-started-button {
     background-color: #F59B00;
     width: 60px;
@@ -764,6 +763,7 @@ body {
     overflow: hidden;
     background: no-repeat 20% 50%;
     background-size: cover;
+    transform: scaleX(-1);
 }
 
 .about__banner>div:first-child {
