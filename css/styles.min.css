@@ -763,7 +763,6 @@ body {
     overflow: hidden;
     background: no-repeat 20% 50%;
     background-size: cover;
-    transform: scaleX(-1);
 }
 
 .about__banner>div:first-child {
