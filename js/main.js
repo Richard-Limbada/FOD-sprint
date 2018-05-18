@@ -20,12 +20,34 @@ window.onload = function () {
 
     });
     
+    new Vivus('botSvg', {duration: 200}, function (data) {
+        console.log("THE DxdfgndryjnATA888", data);
+
+    });
+        new Vivus('my-svg2', {duration: 200}, function (data) {
+        console.log("THE DxdfgndryjnsdATlllA", data);
+
+    });
+    
     
     AOS.init({
 				easing: 'ease-out-back',
 				duration: 1000
 			});
-		
+    
+var modalPortfolio = new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+});
 
-     
+	$('body').on('click', '.portfolioItem', function(event){
+		var html = $(this).find('.portfolioExtra').html();
+console.log("tingle ready");
+		modalPortfolio.setContent(html);
+		modalPortfolio.open();
+	})		
 }  
+
+
+
+
